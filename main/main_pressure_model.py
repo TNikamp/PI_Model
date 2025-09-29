@@ -6,8 +6,8 @@ import math
 # Pre processing
 
 # Loading in files
-filepath = r"C:\Data MGP\Tracking Data Second Spectrum NL\tracking_data_transformed_2043045_new.csv"
-eventpath = r"C:\Data MGP\Tracking Data Second Spectrum NL\new_event_data_belgium_ukraine.csv"
+filepath = # Insert file location/ method of importing here
+eventpath = # Insert file location/ method of importing here
 
 tracking_df = pd.read_csv(filepath)
 event_df = pd.read_csv(eventpath)
@@ -801,6 +801,7 @@ if frames:
     details_df = details_df.sort_index()
 else:
     details_df = pd.DataFrame()  # no data case
+
 
 
 
